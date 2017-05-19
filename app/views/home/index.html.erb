@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <h1 class="display-3 text-center">오늘 뭐먹지?</h1>
+  <hr class="my-4">
+  <div class="card my-4">
+	<div class="card-block">
+	  <h1 class="card-text text-center"><%= @choose %></h1>
+	</div>
+	<img class="card-img" src="<%= image_url(@chooseimg) %>">
+  </div>
+  <a class="btn btn-secondary btn-block btn-lg mx-auto" href="#" role="button">다시뽑기</a>
+</div>
